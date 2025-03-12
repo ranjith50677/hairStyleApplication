@@ -1,0 +1,42 @@
+
+  .carousel-container {
+    width: 100%;
+    max-width:1396px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .gallery {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .gallery-cell {
+    width: 21%;
+    height: 400px;
+    margin-right: 10px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+    padding: 10px;
+  }
+  
+  .gallery-cell:hover {
+    transform: scale(1.05);
+  }
+  .gallery-card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 296px;
+    width: 200px;
+    border-radius: 10px;
+  }
